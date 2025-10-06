@@ -37,8 +37,7 @@ public class PlayerMovement : MonoBehaviour
         tiempoDesdeUltimaFuerza = 0f;
         intervaloTiempo = 2f;
         velocidadLateral = 5f;
-        //SetStrategy(new MovimientoLateral());
-        //SetStrategy(new MovimientoAcelerado());
+       
     }
 
   
