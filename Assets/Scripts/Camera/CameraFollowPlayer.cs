@@ -8,11 +8,11 @@ public class CameraFollowPlayer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        offSet = new Vector3(0, 1, -5);
-        playerMovement = FindObjectOfType<PlayerMovement>();
+        offSet = new Vector3(0, 1, -4);
+        playerMovement = FindFirstObjectByType<PlayerMovement>();
     }
 
-    void LateUpdate()
+    private void LateUpdate()
     {
         gameObject.transform.position = playerMovement.transform.position + offSet;
     }
