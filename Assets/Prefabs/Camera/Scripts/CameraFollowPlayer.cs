@@ -17,3 +17,4 @@ public class CameraFollowPlayer : MonoBehaviour
         gameObject.transform.position = playerMovement.transform.position + offSet;
     }
 }
+
